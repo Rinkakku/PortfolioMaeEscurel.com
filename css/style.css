@@ -10,8 +10,8 @@ html {
   scroll-behavior: smooth;
 }
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
@@ -39,7 +39,13 @@ a {
   color: #1e1e1e;
   transition: all 0.5s ease-in-out;
 }
-
+.container {
+  width: 95%;
+  padding-right: 10px;
+  padding-left: 5px;
+  margin-right: auto;
+  margin-left: auto;
+}
 a:hover {
   color: #0078ff;
   text-decoration: none;
@@ -75,10 +81,6 @@ a:hover {
   box-shadow: 0 0 0 4px #cde1f8;
 }
 
-div.container {
-padding: 2px;
-
-}
 
 .display-5 {
   font-size: 2.5rem;
@@ -104,7 +106,7 @@ padding: 2px;
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
-  width: 100%;
+ 
 }
 
 .overlay-mf {
@@ -209,8 +211,9 @@ h5.title-left {
   bottom: -12px;
 }
 strong.text-slider {
-  color:rgb(206, 25, 25);
-  font-weight: 700;
+  color:rgb(14, 54, 66);
+  font-weight: 760;
+ 
 }
 
 /*------/ Box /------*/
@@ -654,14 +657,14 @@ strong.text-slider {
 }
 
 .intro .intro-title {
-  color: #e7d9c5;
+  color: #f7f4f1;
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .intro .intro-subtitle {
   font-size: 1.5rem;
-  font-weight: 300;
+  font-weight: 600;
 }
 
 a.intro-submit {
@@ -672,7 +675,7 @@ a.intro-submit {
   font-size: 7px;
   text-transform: uppercase;
   box-sizing: border-box;
-  border: 1px solid wheat;
+  border: 1.4px solid rgb(228, 218, 209);
   border-radius: 6rem;
 	overflow: hidden;
 	padding: 6px 10px;
@@ -720,8 +723,10 @@ a.intro-submit {
 }
 
 h2.introd{
-  color:#e7d9c5;
+  color:#f3f0ec;
   font-size: .8rem;
+  font-weight: 600;
+
 }
 .intro-single .breadcrumb a {
   color: #fff;
@@ -743,10 +748,12 @@ h2.introd{
 
 .about-mf .about-img {
   margin-bottom: 2rem;
+
 }
 
 .about-mf .about-img img {
-  margin-left: 10px;
+  margin-left: auto;
+
 }
 
 .skill-mf span {
@@ -764,9 +771,12 @@ h2.introd{
   height: .7rem;
   background-color: #8b4444;
 }
+
 h5.title-left{
   color:#574949;
-  font-weight: 500;
+  font-weight: 630;
+  font-size: 2.4rem;
+
 }
 
 .work-about{
@@ -784,18 +794,17 @@ h5.title-left{
   text-transform: uppercase;
   box-sizing: border-box;
   border: 2px solid #333333;
-  border-radius: 6rem;
+  border-radius: 0rem;
 	overflow: hidden;
-	padding: 11px 18px;
+	padding: 12px 14px;
 	display: inline;
   background-color: rgb(225 219 219);
   font-size: .7rem;
   letter-spacing: 1px;
-  margin-left: 47.5%;
+  margin-left: 12.5%;
   margin-right: 10;
 
 }
-
 /*======================================
 //--//-->   COUNTER
 ======================================*/
