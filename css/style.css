@@ -75,6 +75,11 @@ a:hover {
   box-shadow: 0 0 0 4px #cde1f8;
 }
 
+div.container {
+padding: 2px;
+
+}
+
 .display-5 {
   font-size: 2.5rem;
   font-weight: 300;
@@ -99,6 +104,7 @@ a:hover {
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
+  width: 100%;
 }
 
 .overlay-mf {
@@ -187,6 +193,8 @@ a:hover {
   position: relative;
   color: #f5f5f5;
 }
+
+
 h5.title-left {
   color:#cec0c0;
   font-weight: 500;
@@ -199,6 +207,10 @@ h5.title-left {
   background-color: #0078ff;
   width: 100px;
   bottom: -12px;
+}
+strong.text-slider {
+  color:rgb(206, 25, 25);
+  font-weight: 700;
 }
 
 /*------/ Box /------*/
@@ -630,7 +642,7 @@ h5.title-left {
   position: absolute;
 }
 
-.intro .overlay-itro {
+.intro .overlay-intro {
   background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
   top: 0;
@@ -644,7 +656,7 @@ h5.title-left {
 .intro .intro-title {
   color: #e7d9c5;
   font-weight: 600;
-  font-size: 2.28rem;
+  font-size: 1.5rem;
 }
 
 .intro .intro-subtitle {
@@ -709,7 +721,7 @@ a.intro-submit {
 
 h2.introd{
   color:#e7d9c5;
-  font-size: 1.1rem;
+  font-size: .8rem;
 }
 .intro-single .breadcrumb a {
   color: #fff;
@@ -783,10 +795,6 @@ h5.title-left{
   margin-right: 10;
 
 }
-.work-download :hover{
- 
-}
-
 
 /*======================================
 //--//-->   COUNTER
@@ -949,7 +957,7 @@ footer .credits a {
 }
 
 /*======================================
-//--//-->   CONtaCT FORM
+//--//-->   CONTACT FORM
 ======================================*/
 
 #sendmessage {
@@ -1081,16 +1089,16 @@ footer .credits a {
 
   .intro .intro-title {
     
-    font-size: 4.5rem;
+    font-size: 2.6rem;
     color:white;
   }
   .intro .introd {
-    font-size: 1.5rem;
-    color: wheat;
+    font-size: 1.2rem;
+    color: white;
   }
   .intro .intro-subtitle {
-    font-size: 3.5rem;
-    color: rgb(197, 151, 98);
+    font-size: 3rem;
+    color: rgb(206, 25, 25);
     font-weight: 400;
   }
   
