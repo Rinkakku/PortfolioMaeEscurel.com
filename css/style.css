@@ -801,8 +801,9 @@ h5.title-left{
   background-color: rgb(225 219 219);
   font-size: .7rem;
   letter-spacing: 1px;
-  margin-left: 12.5%;
-  margin-right: 10;
+  margin-left: 15.5%;
+  margin-right: auto;
+
 
 }
 /*======================================
@@ -1107,7 +1108,7 @@ footer .credits a {
   }
   .intro .intro-subtitle {
     font-size: 3rem;
-    color: rgb(206, 25, 25);
+    color: rgb(14, 54, 66);
     font-weight: 400;
   }
   
