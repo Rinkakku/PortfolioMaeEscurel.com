@@ -801,16 +801,15 @@ h5.title-left{
   border: 2px solid #333333;
   border-radius: 0rem;
 	overflow: hidden;
-	padding: 14px 13px;
-	display: inline;
+	padding: 14px 18px;
+	display: inline-flexbox;
   background-color: rgb(225 219 219);
-  font-size: .8rem;
+  font-size: .7rem;
   letter-spacing: 1px;
-  margin-inline:10%;
+  margin-inline:22.5%;
 list-style: none;
-
-
 }
+
 /*======================================
 //--//-->   COUNTER
 ======================================*/
