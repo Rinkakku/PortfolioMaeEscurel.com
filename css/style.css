@@ -773,7 +773,7 @@ h2.introd{
 }
 
 h5.title-left{
-  color:#574949;
+  color:#fff;
   font-weight: 630;
   font-size: 2.4rem;
 
@@ -806,7 +806,7 @@ h5.title-left{
   background-color: rgb(225 219 219);
   font-size: .7rem;
   letter-spacing: 1px;
-  margin-inline:22.5%;
+  margin-inline:25%;
 list-style: none;
 }
 
