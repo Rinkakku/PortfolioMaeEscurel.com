@@ -673,11 +673,7 @@
                     </h5>
                   </div>
                   <div>           
-       <form action="https://formspree.io/f/xyzokanj" method="POST" role="form" class="contactForm">
-  <input type="hidden" name="_subject" value="New message from your portfolio website">
-
-  <div id="sendmessage">Your message has been sent. Thank you!</div>
-  <div id="errormessage"></div>
+     <form action="https://formspree.io/f/xyzokanj" method="POST" role="form">
 
   <div class="row">
 
@@ -687,13 +683,9 @@
           type="text" 
           name="name" 
           class="form-control" 
-          id="name" 
           placeholder="Your Name" 
           required
-          oninvalid="this.setCustomValidity('Please enter your name')"
-          oninput="this.setCustomValidity('')"
-        />
-        <div class="validation"></div>
+        >
       </div>
     </div>
 
@@ -701,15 +693,11 @@
       <div class="form-group">
         <input 
           type="email" 
-          class="form-control" 
           name="email" 
-          id="email" 
+          class="form-control" 
           placeholder="Your Email" 
           required
-          oninvalid="this.setCustomValidity('Please enter a valid email address')"
-          oninput="this.setCustomValidity('')"
-        />
-        <div class="validation"></div>
+        >
       </div>
     </div>
 
@@ -717,30 +705,23 @@
       <div class="form-group">
         <input 
           type="text" 
-          class="form-control" 
           name="subject" 
-          id="subject" 
+          class="form-control" 
           placeholder="Subject" 
           required
-          oninvalid="this.setCustomValidity('Please enter a subject')"
-          oninput="this.setCustomValidity('')"
-        />
-        <div class="validation"></div>
+        >
       </div>
     </div>
 
     <div class="col-md-12 mb-3">
       <div class="form-group">
         <textarea 
-          class="form-control" 
-          name="message" 
+          class="form-control"
+          name="message"
           rows="5"
           placeholder="Message"
           required
-          oninvalid="this.setCustomValidity('Please write your message')"
-          oninput="this.setCustomValidity('')"
         ></textarea>
-        <div class="validation"></div>
       </div>
     </div>
 
@@ -752,6 +733,7 @@
 
   </div>
 </form>
+
                     
                   </div>
                 </div>
