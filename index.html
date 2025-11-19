@@ -672,10 +672,10 @@
                       Send Message
                     </h5>
                   </div>
-                  <div>
-               <form action="https://formspree.io/f/xyzokanj" method="POST" role="form" class="contactForm">
-
+                  <div>           
+       <form action="https://formspree.io/f/xyzokanj" method="POST" role="form" class="contactForm">
   <input type="hidden" name="_subject" value="New message from your portfolio website">
+
   <div id="sendmessage">Your message has been sent. Thank you!</div>
   <div id="errormessage"></div>
 
@@ -690,6 +690,8 @@
           id="name" 
           placeholder="Your Name" 
           required
+          oninvalid="this.setCustomValidity('Please enter your name')"
+          oninput="this.setCustomValidity('')"
         />
         <div class="validation"></div>
       </div>
@@ -704,6 +706,8 @@
           id="email" 
           placeholder="Your Email" 
           required
+          oninvalid="this.setCustomValidity('Please enter a valid email address')"
+          oninput="this.setCustomValidity('')"
         />
         <div class="validation"></div>
       </div>
@@ -718,6 +722,8 @@
           id="subject" 
           placeholder="Subject" 
           required
+          oninvalid="this.setCustomValidity('Please enter a subject')"
+          oninput="this.setCustomValidity('')"
         />
         <div class="validation"></div>
       </div>
@@ -728,9 +734,11 @@
         <textarea 
           class="form-control" 
           name="message" 
-          rows="5" 
-          placeholder="Message" 
+          rows="5"
+          placeholder="Message"
           required
+          oninvalid="this.setCustomValidity('Please write your message')"
+          oninput="this.setCustomValidity('')"
         ></textarea>
         <div class="validation"></div>
       </div>
@@ -744,8 +752,6 @@
 
   </div>
 </form>
-
-
                     
                   </div>
                 </div>
